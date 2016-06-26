@@ -1,30 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>Ting Til Folket by Rabidsquirrel2016</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
+
   <body>
-    <div class="wrapper">
+    <a id="forkme_banner" href="https://github.com/Rabidsquirrel2016">View on GitHub</a>
+    <div class="shell">
+
       <header>
-        <h1>Ting Til Folket</h1>
-        <p>Velkommen!</p>
-        <p class="view"><a href="https://github.com/Rabidsquirrel2016">View the Project on GitHub <small>Rabidsquirrel2016</small></a></p>
-        <ul>
-          <li class="single"><a href="https://github.com/Rabidsquirrel2016/Rabidsquirrel2016.github.io">View On <strong>GitHub</strong></a></li>
-        </ul>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Ting Til Folket</h1>
+            <h2>Velkommen!</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
       </header>
-      <section>
+
+      <div id="no-downloads">
+        <span class="inner">
+        </span>
+      </div>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
         <h3>
 <a id="lonely-planet-guide-bøger" class="anchor" href="#lonely-planet-guide-b%C3%B8ger" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lonely Planet Guide Bøger</h3>
 
@@ -75,11 +95,21 @@ Pocket Tokyo - Lonely Planet.epub <br>
 Pocket Washington - Lonely Planet.epub <br>
 <a href="http://www12.zippyshare.com/v/awVGkq36/file.html">http://www12.zippyshare.com/v/awVGkq36/file.html</a> <br></p>
       </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>Projects by <a href="https://github.com/Rabidsquirrel2016">Rabidsquirrel2016</a> can be found on <a href="https://github.com/Rabidsquirrel2016">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
     </div>
-    <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
     
   </body>
 </html>
